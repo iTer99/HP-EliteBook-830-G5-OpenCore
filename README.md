@@ -16,6 +16,8 @@
 <summary><strong>Bios Setting</strong></summary>
 </br>
 
+```diff
+
 Advanced
 
    Boot Options
@@ -90,6 +92,8 @@ Deep Sleep checked
 Wake when Lid is Opened checked
 Wake on USB unchecked
 Power Control unchecked
+
+```
 
 
 <summary><strong>How to install macOS</strong></summary>
