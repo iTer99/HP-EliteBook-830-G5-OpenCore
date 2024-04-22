@@ -150,5 +150,5 @@ git clone https://github.com/corpnewt/GenSMBIOS && cd GenSMBIOS && chmod +x GenS
 <summary><strong>What's not working ⚠️</strong></summary>
 </br>
 
-- [ ] TrackPoint won't fix
+- [ ] TrackPoint not working
 - [ ] You talk to me
