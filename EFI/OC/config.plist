@@ -2,14 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>#WARNING - 1</key>
-	<string>This is just a sample. Do NOT try loading it.</string>
-	<key>#WARNING - 2</key>
-	<string>Ensure you understand EVERY field before booting.</string>
-	<key>#WARNING - 3</key>
-	<string>In most cases recommended to use Sample.plist</string>
-	<key>#WARNING - 4</key>
-	<string>Use SampleCustom.plist only for special cases.</string>
 	<key>ACPI</key>
 	<dict>
 		<key>Add</key>
@@ -546,7 +538,7 @@
 				<key>BundlePath</key>
 				<string>Lilu.kext</string>
 				<key>Comment</key>
-				<string>V1.6.6 | [Global] An open source kernel extension bringing a platform for arbitrary kext, library, and program patching throughout the system for macOS.</string>
+				<string>Global</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -564,7 +556,7 @@
 				<key>BundlePath</key>
 				<string>VirtualSMC.kext</string>
 				<key>Comment</key>
-				<string>V1.3.2 | [SMC] Advanced Apple SMC emulator in the kernel. Requires Lilu for full functioning.</string>
+				<string>SMC</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -582,7 +574,7 @@
 				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
 				<key>Comment</key>
-				<string>V1.6.5 | [Graphics] Various patches necessary for certain ATI/AMD/Intel/Nvidia GPUs.</string>
+				<string>Graphics</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -600,7 +592,7 @@
 				<key>BundlePath</key>
 				<string>AppleALC.kext</string>
 				<key>Comment</key>
-				<string>V1.8.3 | [Audio] An open source kernel extension enabling native macOS HD audio for not officially supported codecs without any filesystem modifications.</string>
+				<string>Audio</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -618,7 +610,7 @@
 				<key>BundlePath</key>
 				<string>USBPorts.kext</string>
 				<key>Comment</key>
-				<string>V1.0 | [USB]Kext to inject mapped USB Ports. (via Hackintool)</string>
+				<string>USB</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -744,7 +736,7 @@
 				<key>BundlePath</key>
 				<string>VoodooI2C.kext/Contents/PlugIns/VoodooI2CServices.kext</string>
 				<key>Comment</key>
-				<string>V1 | [Touchpad] VoodooI2C is a project consisting of macOS kernel extensions that add support for I2C bus devices.</string>
+				<string>Touchpad</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -762,7 +754,7 @@
 				<key>BundlePath</key>
 				<string>VoodooI2C.kext/Contents/PlugIns/VoodooGPIO.kext</string>
 				<key>Comment</key>
-				<string>V1.1 | [Touchpad] VoodooI2C is a project consisting of macOS kernel extensions that add support for I2C bus devices.</string>
+				<string>Touchpad</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -780,7 +772,7 @@
 				<key>BundlePath</key>
 				<string>VoodooI2C.kext/Contents/PlugIns/VoodooInput.kext</string>
 				<key>Comment</key>
-				<string>V1.1.4 | [Touchpad] VoodooI2C is a project consisting of macOS kernel extensions that add support for I2C bus devices.</string>
+				<string>Touchpad</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -798,7 +790,7 @@
 				<key>BundlePath</key>
 				<string>VoodooI2C.kext</string>
 				<key>Comment</key>
-				<string>V2.8 | [Touchpad] VoodooI2C is a project consisting of macOS kernel extensions that add support for I2C bus devices.</string>
+				<string>Touchpad</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -816,7 +808,7 @@
 				<key>BundlePath</key>
 				<string>VoodooI2CHID.kext</string>
 				<key>Comment</key>
-				<string>V1 | [Touchpad] VoodooI2C is a project consisting of macOS kernel extensions that add support for I2C bus devices.</string>
+				<string>Touchpad</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -834,7 +826,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext</string>
 				<key>Comment</key>
-				<string>V2.3.5 | [PS2] Contains updated Voodoo PS/2 Controller, improved Keyboard &amp; Synaptics TouchPad.</string>
+				<string>PS2</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -852,7 +844,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext</string>
 				<key>Comment</key>
-				<string>V1.1.4 | [PS2] Contains updated Voodoo PS/2 Controller, improved Keyboard &amp; Synaptics TouchPad.</string>
+				<string>PS2</string>
 				<key>Enabled</key>
 				<false/>
 				<key>ExecutablePath</key>
@@ -870,7 +862,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext</string>
 				<key>Comment</key>
-				<string>V2.3.5 | [PS2] Contains updated Voodoo PS/2 Controller, improved Keyboard &amp; Synaptics TouchPad.</string>
+				<string>PS2</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -888,7 +880,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext</string>
 				<key>Comment</key>
-				<string>V2.3.5 | [PS2] Contains updated Voodoo PS/2 Controller, improved Keyboard &amp; Synaptics TouchPad.</string>
+				<string>PS2</string>
 				<key>Enabled</key>
 				<false/>
 				<key>ExecutablePath</key>
@@ -906,7 +898,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext</string>
 				<key>Comment</key>
-				<string>V2.3.5 | [PS2] Contains updated Voodoo PS/2 Controller, improved Keyboard &amp; Synaptics TouchPad.</string>
+				<string>PS2</string>
 				<key>Enabled</key>
 				<false/>
 				<key>ExecutablePath</key>
@@ -924,7 +916,7 @@
 				<key>BundlePath</key>
 				<string>SMCBatteryManager.kext</string>
 				<key>Comment</key>
-				<string>V1.3.2 | [Battery] a member of VirtualSMC that parses battery info.</string>
+				<string>Battery</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -942,7 +934,7 @@
 				<key>BundlePath</key>
 				<string>SMCProcessor.kext</string>
 				<key>Comment</key>
-				<string>V1.3.0 | [Sensor] a member of VirtualSMC that activate light sensor.</string>
+				<string>Sensor</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -960,7 +952,7 @@
 				<key>BundlePath</key>
 				<string>SMCLightSensor.kext</string>
 				<key>Comment</key>
-				<string>V1.3.2 | [Processor] a member of VirtualSMC that provides power info of processor temperature.</string>
+				<string>Processor</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -978,7 +970,7 @@
 				<key>BundlePath</key>
 				<string>ECEnabler.kext</string>
 				<key>Comment</key>
-				<string>V1.0.4 | [Battery] Allows reading Embedded Controller fields over 1 byte long, vastly reducing the amount of ACPI modification needed (if any) for working battery status.</string>
+				<string>Battery</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -996,7 +988,7 @@
 				<key>BundlePath</key>
 				<string>IntelMausi.kext</string>
 				<key>Comment</key>
-				<string>V1.0.7 | [Ethernet] Intel onboard LAN driver for macOS.</string>
+				<string>Ethernet</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1014,7 +1006,7 @@
 				<key>BundlePath</key>
 				<string>CPUFriend.kext</string>
 				<key>Comment</key>
-				<string>V1.2.7 | [Processor] Adjust CPU performance</string>
+				<string>Processor</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1032,7 +1024,7 @@
 				<key>BundlePath</key>
 				<string>CPUFriendDataProvider.kext</string>
 				<key>Comment</key>
-				<string>V1.0.0 | [Processor] CPUFriend config: Default</string>
+				<string>Processor</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1050,7 +1042,7 @@
 				<key>BundlePath</key>
 				<string>NVMeFix.kext</string>
 				<key>Comment</key>
-				<string>V1.1.0 | [SSD] Enable native power management for 3rd-party NVMe devices</string>
+				<string>SSD NVMe</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1068,7 +1060,7 @@
 				<key>BundlePath</key>
 				<string>HibernationFixup.kext</string>
 				<key>Comment</key>
-				<string>V1.4.9 | [Hibernate] Kexts for fixing S4 hibernation &amp; wakeup</string>
+				<string>Hibernate</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1086,7 +1078,7 @@
 				<key>BundlePath</key>
 				<string>IOSkywalkFamily.kext</string>
 				<key>Comment</key>
-				<string>V1.0 | IOSkywalkFamily.kext</string>
+				<string>Sonoma Broadcom</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1104,7 +1096,7 @@
 				<key>BundlePath</key>
 				<string>VoodooI2CAtmelMXT.kext</string>
 				<key>Comment</key>
-				<string>V1</string>
+				<string>Trackpad</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1122,7 +1114,7 @@
 				<key>BundlePath</key>
 				<string>VoodooI2CELAN.kext</string>
 				<key>Comment</key>
-				<string>V1</string>
+				<string>Trackpad</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1140,7 +1132,7 @@
 				<key>BundlePath</key>
 				<string>VoodooI2CFTE.kext</string>
 				<key>Comment</key>
-				<string>V1</string>
+				<string>Trackpad</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1158,7 +1150,7 @@
 				<key>BundlePath</key>
 				<string>VoodooI2CSynaptics.kext</string>
 				<key>Comment</key>
-				<string>V1</string>
+				<string>Trackpad</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1176,7 +1168,7 @@
 				<key>BundlePath</key>
 				<string>VoodooInput.kext</string>
 				<key>Comment</key>
-				<string>V1.1.3</string>
+				<string>Trackpad</string>
 				<key>Enabled</key>
 				<false/>
 				<key>ExecutablePath</key>
@@ -1194,7 +1186,7 @@
 				<key>BundlePath</key>
 				<string>IO80211FamilyLegacy.kext</string>
 				<key>Comment</key>
-				<string>V1200.12.2b1 | IO80211FamilyLegacy.kext</string>
+				<string>Sonoma Broadcom</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1212,7 +1204,7 @@
 				<key>BundlePath</key>
 				<string>IO80211FamilyLegacy.kext/Contents/PlugIns/AirPortBrcmNIC.kext</string>
 				<key>Comment</key>
-				<string>V1400.1.1 | AirPortBrcmNIC.kext</string>
+				<string>Sonoma Broadcom</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
