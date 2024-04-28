@@ -8,7 +8,7 @@
 | Model                   | [HP EliteBook 830 G5](https://support.hp.com/vn-en/document/c05898590)                                               |
 | Processor               | 8th Gen Intel® Core™ i5-8350U processor, 4 Cores / 8 Threads, 1.7 GHz / 3.6 GHz (Base / Max Turbo), 6 MB Cache       |
 | Graphics (Integrated)   | Intel® UHD Graphics 620                                                                                              |
-| 13.3" Display           | 120 Hz Full HD, 16:9 aspect ratio                                                                                    |
+| 13.3" Display           | 120Hz Full HD, 16:9 aspect ratio                                                                                    |
 | Storage                 | 512 GB SSD M.2 NVMe WDC PC SN720 SDAPNTW-512G-1006                                                                   |
 | Memory                  | 16 GB Samsung dual-channel DDR4-2400 MHz (8 GB x 2)                                                                  |                     
 | WLAN + Bluetooth        | Broadcom BCM94360CS2 with adapter                                                                                    |
@@ -20,8 +20,7 @@
 
 Advanced
 
-   Boot Options
-
+->   Boot Options
 Startup Menu Delay(sec.) = 0
 Fast Boot uncheck
 CD-ROM Boot uncheck
@@ -36,11 +35,11 @@ Audio Alerts During Boot checked
 NumLock on at Boot unchecked
 UEFI Boot Order checked
 Legacy Boot Order checked
-   Secure Boot Configuration
 
+->   Secure Boot Configuration
 Configure Legacy Support and Secure Boot = Legacy Support Disable and Secure Boot Disable
-   System Options
 
+->   System Options
 Turbo Boost checked
 Hyperthreading checked
 Multi-processor checked
@@ -49,8 +48,8 @@ Virtualization Technology for Directed I/O (VTd) unchecked
 Swap Fn and Ctrl (keys) unchecked
 Launch Hotkeys without Fn Keypress unchecked
 Enable Turbo Boost on DC unchecked
-  Built-In Device Options
 
+->  Built-In Device Options
 Embedded LAN Controller checked
 Wake on LAN disabled
 Video memory size 64MB
@@ -67,8 +66,8 @@ Backlit keyboard timeout 10 sec.
 Integrated Camera checked
 Fingerprint Device unchecked
 NFC checked
-   Port Options
 
+->   Port Options
 Left USB Ports checked
 Right USB Ports checked
 Right USB Port1 checked
@@ -81,11 +80,11 @@ Smart Card Power Savings unchecked
 M2 SSD1 checked
 SATA1 checked
 Restrict USB Devices = Allow all USB Devices
-   Option ROM Launch Policy
 
+->   Option ROM Launch Policy
 Configure Option ROM Launch Policy = All Legacy
-   Power Management Options
 
+->   Power Management Options
 Runtime Power Management checked
 Extended Idle Power States checked
 Deep Sleep checked
@@ -150,5 +149,7 @@ git clone https://github.com/corpnewt/GenSMBIOS && cd GenSMBIOS && chmod +x GenS
 <summary><strong>What's not working ⚠️</strong></summary>
 </br>
 
-- [ ] TrackPoint not working
+- [ ] TrackPoint
+- [ ] IR Camera
+- [ ] Fan speed monitor
 - [ ] You talk to me
