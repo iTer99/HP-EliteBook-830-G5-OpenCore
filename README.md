@@ -2,6 +2,7 @@
 
 <img src="/Picture/Sonoma.png"  width="1000">
 <img src="/Picture/Sonoma 2.png"  width="1000">
+<img src="/Picture/Sonoma 3.png"  width="1000">
 
 <summary><strong>My Hardware 💻</strong></summary>
 </br>
