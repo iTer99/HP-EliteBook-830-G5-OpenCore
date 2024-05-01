@@ -154,6 +154,8 @@ git clone https://github.com/corpnewt/GenSMBIOS && cd GenSMBIOS && chmod +x GenS
 </br>
 
 - [ ] TrackPoint
+- [ ] Fingerprint
+- [ ] WWAN
 - [ ] IR Camera
 - [ ] Fan speed monitor
 - [ ] You talk to me
