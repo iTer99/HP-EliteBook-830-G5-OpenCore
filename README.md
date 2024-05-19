@@ -1,5 +1,9 @@
 # HP-EliteBook-830-G5-OpenCore
 
+<img src="/Picture/Sonoma.png"  width="1000">
+<img src="/Picture/Sonoma 2.png"  width="1000">
+<img src="/Picture/Sonoma 3.png"  width="1000">
+
 <summary><strong>My Hardware 💻</strong></summary>
 </br>
 
@@ -150,6 +154,8 @@ git clone https://github.com/corpnewt/GenSMBIOS && cd GenSMBIOS && chmod +x GenS
 </br>
 
 - [ ] TrackPoint
+- [ ] Fingerprint
+- [ ] WWAN
 - [ ] IR Camera
 - [ ] Fan speed monitor
 - [ ] You talk to me
