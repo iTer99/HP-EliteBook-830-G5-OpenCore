@@ -1,4 +1,5 @@
 # HP-EliteBook-830-G5-OpenCore
+check my score [Geekbench](https://browser.geekbench.com/v6/cpu/5901430)
 
 <img src="/Picture/Sonoma.png"  width="1000">
 <img src="/Picture/Sonoma 2.png"  width="1000">
