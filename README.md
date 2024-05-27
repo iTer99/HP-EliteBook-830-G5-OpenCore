@@ -13,10 +13,10 @@ check my score [Geekbench](https://browser.geekbench.com/v6/cpu/5901430)
 | Model                   | [HP EliteBook 830 G5](https://support.hp.com/vn-en/document/c05898590)                                               |
 | Processor               | 8th Gen Intel® Core™ i5-8350U processor, 4 Cores / 8 Threads, 1.7 GHz / 3.6 GHz (Base / Max Turbo), 6 MB Cache       |
 | Graphics (Integrated)   | Intel® UHD Graphics 620                                                                                              |
-| 13.3" Display           | 120Hz Full HD, 16:9 aspect ratio                                                                                    |
-| Storage                 | 512 GB SSD M.2 NVMe WDC PC SN720 SDAPNTW-512G-1006                                                                   |
+| 13.3" Display           | 120Hz Full HD, 16:9 aspect ratio                                                                                     |
+| Storage                 | 512 GB SSD M.2 NVMe WDC PC SN720 SDAPNTW-512G-1006 best choice for hackintosh)                                       |
 | Memory                  | 16 GB Samsung dual-channel DDR4-2400 MHz (8 GB x 2)                                                                  |                     
-| WLAN + Bluetooth        | Broadcom BCM94360CS2 with adapter                                                                                    |
+| WLAN + Bluetooth        | Broadcom BCM94360CS2 with adapter (best choice for hackintosh)                                                       |
 
 <summary><strong>Bios Setting</strong></summary>
 </br>
@@ -154,7 +154,6 @@ git clone https://github.com/corpnewt/GenSMBIOS && cd GenSMBIOS && chmod +x GenS
 <summary><strong>What's not working ⚠️</strong></summary>
 </br>
 
-- [ ] TrackPoint
 - [ ] Fingerprint
 - [ ] WWAN
 - [ ] IR Camera
