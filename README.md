@@ -48,8 +48,8 @@ Configure Legacy Support and Secure Boot = Legacy Support Disable and Secure Boo
 Turbo Boost checked
 Hyperthreading checked
 Multi-processor checked
-Virtualization Technology (VTx) uncheck
-Virtualization Technology for Directed I/O (VTd) unchecked
+Virtualization Technology (VTx) check
+Virtualization Technology for Directed I/O (VTd) checked
 Swap Fn and Ctrl (keys) unchecked
 Launch Hotkeys without Fn Keypress unchecked
 Enable Turbo Boost on DC unchecked
